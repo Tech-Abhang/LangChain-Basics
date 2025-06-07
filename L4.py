@@ -34,7 +34,7 @@ llm_replacement_model = OpenAI(temperature=0,
 response = index.query(query, 
                        llm = llm_replacement_model)
 
-## or (use indexes to llm : uses complete data , use retrival to llm : uses only relevant data)
+## or (use indexes to llm : uses complete data , use retrival to llm : uses only relevant data thorugh cunks)
 
 ## text takes up a lot of space for that we use embeddings(text to vector)
 
